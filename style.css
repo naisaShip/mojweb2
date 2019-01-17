@@ -1,5 +1,5 @@
 body {
-	background: url('slike/debut_light.png');
+	background: url('slike/debut_light.jpg');
 }
 /* ------ Zaglavlje / početak ------ */
 
@@ -9,7 +9,7 @@ body {
 	background-size: cover;
 }
 .zaglavlje a {
-	color: #fff;
+	color: black;
 	font-size: 10pt;
 	text-decoration: none;
 	display: block;
@@ -19,7 +19,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .zaglavlje p {
-	color: #fff;
+	color: gray;
 	font-size: 28pt;
 	text-align: center;
 	width: 100%;
@@ -56,7 +56,7 @@ body {
 
 /* ------ Navigacija / početak ------ */
 .navigacija {
-	height: 70px;
+	height: 50px;
 	background-color: #A4A4A4;
 }
 .navigacija li {
@@ -65,10 +65,11 @@ body {
 	list-style-type: none;
 }
 .navigacija li a {
-	line-height: 70px;
+	line-height: 50px;
 	color: #000;
 	text-decoration: none;
-	font-size: 15pt;
+	font-size: 10pt;
+	font-family: 'Adam';
 }
 .navigacija .hamburger {
 	text-align: right;
@@ -182,7 +183,7 @@ body {
 .kontakt input[type=email],
 .kontakt textarea {
 	border: 0;
-	border-radius: 0;
+	border-radius: 20;
 }
 .kontakt input {
 	height: 50px;
@@ -190,7 +191,7 @@ body {
 .kontakt button[type=submit] {
 	background-color: #000;
 	border: 0;
-	border-radius: 0;
+	border-radius: 10;
 	width: 200px;
 	height: 50px;
 }
@@ -339,18 +340,30 @@ body {
 	text-transform: uppercase;
 	font-size: 24pt;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 70px;
 	padding-bottom: 40px;
 }
 .social-profile {
-	height: 250px;
+	height: 350px;
 }
-.social-profile.svijetlo-siva {
-	background-color: #F0F0F0;
-}
+
 .social-profile.tamno-siva {
-	background-color: #E0E0E0;
+	background: url('slike/1.jpg');
 }
+
+.social-profile.svijetlo-siva {
+	background: url('slike/Izrezak.jpg');
+}
+
+
+.social-profile.plava {
+	background: url('slike/zg.jpg');
+}
+
+.social-profile.crvena {
+	background: url('slike/zid.jpg');
+}
+
 @media screen and (max-width:767px) {
 	.social-profile:nth-child(odd) {
 		background-color: #F0F0F0;
