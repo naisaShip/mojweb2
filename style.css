@@ -58,6 +58,7 @@ body {
 .navigacija {
 	height: 50px;
 	background-color: #A4A4A4;
+	text-align: center;
 }
 .navigacija li {
 	display: inline;
@@ -267,7 +268,7 @@ body {
 	padding-bottom: 40px;
 }
 .vjestina {
-	height: 250px;
+	height: 80px;
 }
 .vjestina.svijetlo-siva {
 	background-color: #F0F0F0;
